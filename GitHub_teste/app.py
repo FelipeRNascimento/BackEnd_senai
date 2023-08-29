@@ -1,5 +1,5 @@
-print('Hello, World!')
-for c in range(1, 5):
-    print(f'Este é o {c}º c')
-print()
-print('Fim!')
+def FuncaoA(ValorA = 0, ValorB = 0):
+    ValorFinal = ValorA + ValorB
+    return ValorFinal
+
+print(FuncaoA(4, 8))
